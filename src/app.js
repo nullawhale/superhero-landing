@@ -1,7 +1,7 @@
-function component() {
-  let element = document.createElement('div');
-  element.innerHTML = 'WebPack';
-  return element;
-}
+import React from 'react'
+import ReactDOM from "react-dom"
 
-document.body.appendChild(component());
+ReactDOM.render(
+  <h1>Hello, world!</h1>,
+  document.getElementById('root')
+);
