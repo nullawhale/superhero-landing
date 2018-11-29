@@ -12,7 +12,7 @@ module.exports = {
         path: path.resolve(__dirname, './dist'),
         publicPath: '/build/'
     },
-    devtool: "source-map",
+    devtool: 'cheap-module-source-map',
     devServer: {
         port: 3000,
         open: false
