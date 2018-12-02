@@ -1,0 +1,32 @@
+#compromise {
+    background-color: #2d46b9
+}
+
+.harmony {
+    background-color: #503750
+}
+
+.isolation {
+    background-color: #006450
+}
+
+.navbar-default {
+    background-color: #2d46b9;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    padding: 30px 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.general-text {
+    color: white;
+    padding: 30px 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    padding-left: 20%;
+    padding-right: 20%;
+}

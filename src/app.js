@@ -1,16 +1,7 @@
 import React from 'react'
-import ReactDOM from "react-dom"
+import ReactDOM from 'react-dom'
+import { header } from './header'
+import { compromise } from './compromise'
 
-function Welcome(props) {
-    return (
-        <div>
-            <h1>Hello, {props.name}</h1>
-            <h2>It is {new Date().toLocaleTimeString()}.</h2>
-        </div>
-    );
-}
-
-function tick() {
-    ReactDOM.render(<Welcome name='Nikita' />, document.getElementById('root'));
-}
-setInterval(tick, 1000);
+ReactDOM.render(header(), document.getElementById('header'));
+ReactDOM.render(compromise(), document.getElementById('compromise'));
