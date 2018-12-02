@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar, Nav, NavItem } from 'react-bootstrap'
 
-function compromise() {
+function first_chapter() {
     return (
         <div className='container text-center'>
             <h1 className='general-text'>Through the galaxy</h1>
@@ -17,4 +17,4 @@ function compromise() {
     )
 };
 
-export { compromise };
+export { first_chapter };
